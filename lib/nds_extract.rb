@@ -3,6 +3,7 @@ require_relative './directors_database'
 require 'pry'
 
 def directors_totals(source)
+  binding.pry
   result = {}
   director_index = 0
   while director_index < source.size do
@@ -36,8 +37,10 @@ def list_of_directors(source)
 end
 
 def total_gross(source)
-  total = 0 
-  list_of_directors(source)
+#  total = 0
+ # directors_totals
+  #list_of_directors(source)
+  
   # Write this implementation
   #
   # Should use methods:
